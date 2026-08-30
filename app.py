@@ -8,7 +8,7 @@ GROQ_API_KEY = st.secrets["GROQ_API_KEY"]
 
 client = Groq(api_key=GROQ_API_KEY)
 
-MODEL_NAME = "llama-3.1-8b-instant"
+MODEL_NAME = "qwen/qwen3.6-27b"
 
 # ================== UI SETUP ==================
 st.set_page_config(page_title="CampusWell", page_icon="💙")
