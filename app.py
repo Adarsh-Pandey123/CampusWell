@@ -62,6 +62,7 @@ User says: {user_text}
         chat = client.chat.completions.create(
             messages=[{"role": "user", "content": prompt}],
             model=MODEL_NAME,
+            reasoning_effort="none"
         )
         return chat.choices[0].message.content.strip()
     except Exception as e:
