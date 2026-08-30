@@ -54,7 +54,7 @@ with st.sidebar:
 def ai_reply(user_text):
     prompt = f"""You are CampusWell, a supportive mental health companion for college students.
 Be empathetic, concise, and encouraging. Address {username} by name when possible.
-Offer one small actionable tip suitable for students.
+If required offer one small actionable tip suitable for students.
 
 User says: {user_text}
 """
